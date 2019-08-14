@@ -1,0 +1,49 @@
+---
+title: "Data Science Specialization SwiftKey Capstone"
+author: "Alvinne Asejo"
+date: "August 14, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Project Overview
+
+As a practicing Data Analyst, we are in need to use all of the techniques and knowledge we have learned throughout our Coursera Journey. With that being said, here is a project that applies the basic skills involved with being a data scientist.
+
+The project, inspired from Swiftkey, is aimed to predict a set of words after a user inputs a certain word or phrase.
+
+This app has used texts or sentences from blogs, tweets, and news articles in order to accurately predict words using the algorithm created.
+
+## Process
+
+####**Data Pre-processing**
+- Load, Sample, and Clean the Data
+- Cleaning includes: (1) transforming words to lower case and (2) removing punctuations, profanity words, whitespaces, and stopwords
+
+####**Data Exploration**
+- Created graphs that would describe the dataset
+
+####**Model Development**
+- Created an algorithm using NLP
+- N-grams with Back-off strategy were extracted from the corpus of the dataset which was used for the prediction
+
+####**Model Testing**
+- Tested and further improved the model / algorithm
+
+##**Shiny App**
+![Shiny App](./ShinyAppSC.png)
+To use the application, the user needs to input words or phrases in the text box and then click "Submit". Afterwhich, the application will show us three predicted words on the Main Panel.
+
+##**Links**
+You can access the ui.R and server.R code here: 
+https://github.com/AvieAsejo/DataScienceCapstone
+
+You can access the shiny application here: 
+https://avieasejo.shinyapps.io/FinalCapstone/
+
+
+
+
